@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/Servlet/AddBookServlet.java=UTF-8
+encoding//src/Servlet/BorrowBook1.java=UTF-8
+encoding//src/Servlet/DeleteBookServlet.java=UTF-8
+encoding//src/Servlet/DeleteUserServlet.java=UTF-8
+encoding//src/Servlet/LoginServlet.java=UTF-8
+encoding//src/Servlet/ModifyBookServlet.java=UTF-8
+encoding//src/Servlet/ModifyBookServlet2.java=UTF-8
+encoding//src/Servlet/RegisterServlet.java=UTF-8
