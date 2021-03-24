@@ -13,11 +13,11 @@ public class DataBase {
 		
 		try
 		{
-			Class.forName("com.mysql.cj.jdbc.Driver");// ¼ÓÔØÇı¶¯³ÌĞò£¬´Ë´ÎÎŞĞè¸ü¸Ämysql8.0
-			System.out.println("registered success!");//Êä³öregistered success±íÊ¾Çı¶¯¼ÓÔØ³É¹¦
-			//´´½¨¶ÔÏóÁ¬½Ó£¬Á¬½ÓÊı¾İ¿â£¬´ËÀıÖĞemployeedbmsÎªÊı¾İ¿âÃû£¬rootÎªÓÃ»§Ãû£¬123456Î»ÃÜÂë£¬¸ÃÈıÏî¾ùĞè¸ù¾İÊµ¼ÊÇé¿ö½øĞĞĞŞ¸Ä£¬ÆäËü´úÂëÎŞĞè±ä¶¯¡£×¢£ºÈ·±£Êı¾İ¿âÃû¡¢ÓÃ»§ÃûºÍÃÜÂëµÄ×¼È·ĞÔ¡£
+			Class.forName("com.mysql.cj.jdbc.Driver");// åŠ è½½é©±åŠ¨ç¨‹åºï¼Œæ­¤æ¬¡æ— éœ€æ›´æ”¹mysql8.0
+			System.out.println("registered success!");//è¾“å‡ºregistered successè¡¨ç¤ºé©±åŠ¨åŠ è½½æˆåŠŸ
+			//åˆ›å»ºå¯¹è±¡è¿æ¥ï¼Œè¿æ¥æ•°æ®åº“ï¼Œæ­¤ä¾‹ä¸­employeedbmsä¸ºæ•°æ®åº“åï¼Œrootä¸ºç”¨æˆ·åï¼Œrootä½å¯†ç ï¼Œè¯¥ä¸‰é¡¹å‡éœ€æ ¹æ®å®é™…æƒ…å†µè¿›è¡Œä¿®æ”¹ï¼Œå…¶å®ƒä»£ç æ— éœ€å˜åŠ¨ã€‚æ³¨ï¼šç¡®ä¿æ•°æ®åº“åã€ç”¨æˆ·åå’Œå¯†ç çš„å‡†ç¡®æ€§ã€‚
 			conn =DriverManager.getConnection("jdbc:mysql://localhost:3306/library?useSSL=false&serverTimezone=UTC","root","root");
-			System.out.println("connection success!");//Êä³öconnection success±íÊ¾Êı¾İ¿âÒÑ³É¹¦Á¬½Ó
+			System.out.println("connection success!");//è¾“å‡ºconnection successè¡¨ç¤ºæ•°æ®åº“å·²æˆåŠŸè¿æ¥
 			
 		}
 		catch(Exception e)
